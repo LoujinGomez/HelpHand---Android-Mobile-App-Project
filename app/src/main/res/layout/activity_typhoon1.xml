@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".typhoon1">
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#062E8F"
+        android:fontFamily="sans-serif-condensed-light"
+        android:onClick="typhoontoMain"
+        android:text="BACK"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#1745B6"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="NEXT PAGE!"
+        android:onClick="MovetoTyphoon2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist115"
+        android:layout_width="271dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="A cyclone is called a hurricane or typhoon when it has sustained winds over 74 miles per hour (64 knots), a spiral arrangement of thunderstorms with a low-pressure center."
+        android:textColor="#062E8F"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="94dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="325dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/typhoon_tropical_depression_removebg_preview" />
+
+    <TextView
+        android:id="@+id/TVChecklist112"
+        android:layout_width="163dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle5"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Tropical Storm"
+        android:textColor="#062E8F"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist113"
+        android:layout_width="275dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Cyclones with winds of 39 to 73 mph (34 to 63 knots) can bring heavy rain and cause damage to boats and beaches through strong wind and waves."
+        android:textColor="#062E8F"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist111"
+        android:layout_width="284dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Cyclones with winds below 38 miles per hour (33 knots) may not be as intense as tropical storms or hurricanes, but they can still cause substantial rainfall, thunderstorms, and destructive floods."
+        android:textColor="#062E8F"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist109"
+        android:layout_width="163dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle5"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Tropical Depression"
+        android:textColor="#062E8F"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist114"
+        android:layout_width="163dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle5"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Hurricane or Typhoon"
+        android:textColor="#062E8F"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist104"
+        android:layout_width="301dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle5"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Types of Tropical Weather Events"
+        android:textColor="#062E8F"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist103"
+        android:layout_width="381dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="A tropical cyclone is an intense circular storm that originates over warm tropical oceans and is characterized by low atmospheric pressure, high winds, and heavy rain. "
+        android:textColor="#062E8F"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist94"
+        android:layout_width="251dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle5"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="What are Tropical Cyclones?"
+        android:textColor="#062E8F"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist90"
+        android:layout_width="297dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="TROPICAL CYCLONES"
+        android:textColor="#062E8F"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="84dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="562dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/typhoon2_removebg_preview" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:itemIconSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="95dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="223dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/typhoon_tropical_storm_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="119dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178"
+        app:srcCompat="@drawable/typhoon_removebg_preview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

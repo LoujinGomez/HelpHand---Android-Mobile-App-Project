@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".earthquake1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-27dp">
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="69dp"
+            android:layout_height="36dp"
+            android:backgroundTint="#703D28"
+            android:fontFamily="sans-serif-condensed-light"
+            android:onClick="EQtoMain"
+            android:text="BACK"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <TextView
+            android:id="@+id/TVChecklist3"
+            android:layout_width="244dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="1dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="EARTHQUAKES"
+            android:textColor="#703D28"
+            android:textSize="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.387"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="90dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="279dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="624dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/earthquake" />
+
+        <TextView
+            android:id="@+id/TVChecklist4"
+            android:layout_width="202dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/rounded_rectangle"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="What are Earthquakes?"
+            android:textColor="#703D28"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.042"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TVChecklist5"
+            android:layout_width="381dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="1dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="
+An earthquake occurs when the ground shakes due to the sudden slippage or rupture of a fault line, releasing stored elastic energy in rocks under strain."
+            android:textColor="#703D28"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.642"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TVChecklist15"
+            android:layout_width="172dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="596dp"
+            android:layout_marginEnd="1dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Human activities such as mining, tunnel, construction, etc. can produce seismic waves, which can cause earthquakes."
+            android:textColor="#703D28"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TVChecklist11"
+            android:layout_width="163dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="556dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/rounded_rectangle"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Collapse Earthquakes"
+            android:textColor="#703D28"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.036"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TVChecklist14"
+            android:layout_width="269dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="488dp"
+            android:layout_marginEnd="1dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Volcanic activities can cause disruptions on the earth’s surface, causing shifts in the tectonic plates, and resulting in earthquakes."
+            android:textColor="#703D28"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.821"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TVChecklist10"
+            android:layout_width="163dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="452dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/rounded_rectangle"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Volcanic Earthquakes"
+            android:textColor="#703D28"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.024"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TVChecklist13"
+            android:layout_width="289dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="396dp"
+            android:layout_marginEnd="1dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="The force that releases when a nuclear or chemical device is launched can cause earthquakes."
+            android:textColor="#703D28"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.958"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TVChecklist12"
+            android:layout_width="163dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/rounded_rectangle"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Explosion Earthquakes"
+            android:textColor="#703D28"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.036"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TVChecklist9"
+            android:layout_width="284dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="304dp"
+            android:layout_marginEnd="1dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="The movement of tectonic plates is a geological fault that causes the earth’s crust to break, resulting in an earthquake."
+            android:textColor="#703D28"
+            android:textSize="13dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TVChecklist8"
+            android:layout_width="163dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="264dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/rounded_rectangle"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Tectonic Earthquakes"
+            android:textColor="#703D28"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.024"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TVChecklist6"
+            android:layout_width="224dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/rounded_rectangle"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="4 Types of Earthquakes:"
+            android:textColor="#703D28"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.032"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:backgroundTint="#703D28"
+            android:fontFamily="sans-serif-condensed-light"
+            android:onClick="MovetoEQ2"
+            android:text="NEXT PAGE!"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavView"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            app:itemIconSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_nav">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="92dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="308dp"
+            android:layout_marginEnd="292dp"
+            android:layout_marginBottom="378dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.833"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.814"
+            app:srcCompat="@drawable/tectonic_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="53dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="399dp"
+            android:layout_marginEnd="309dp"
+            android:layout_marginBottom="286dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.87"
+            app:srcCompat="@drawable/explosion_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="83dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="464dp"
+            android:layout_marginEnd="294dp"
+            android:layout_marginBottom="181dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.833"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/volcanic_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="62dp"
+            android:layout_height="122dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="573dp"
+            android:layout_marginEnd="309dp"
+            android:layout_marginBottom="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.462"
+            app:srcCompat="@drawable/collapse_removebg_preview" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/checklist_background"
+    android:backgroundTint="#90FFFFFF"
+    android:backgroundTintMode="src_over">
+
+    <TextView
+        android:id="@+id/TVChecklist"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="SUPPLY CHECKLIST"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Click on the buttons below to check your supplies!"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnEssentials"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVChecklist" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="26dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVChecklist2"
+        app:layout_constraintVertical_bias="0.0"></LinearLayout>
+
+    <Button
+        android:id="@+id/btnSupplies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="#E74C3C"
+        android:text="Medical Supplies"
+        app:layout_constraintBottom_toTopOf="@+id/btnComms"
+        app:layout_constraintEnd_toEndOf="@+id/btnEssentials"
+        app:layout_constraintTop_toBottomOf="@+id/btnEssentials" />
+
+    <Button
+        android:id="@+id/btnComms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#E74C3C"
+        android:text="Communication and Navigation"
+        app:layout_constraintBottom_toTopOf="@+id/btnShelter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSupplies" />
+
+    <Button
+        android:id="@+id/btnEssentials"
+        android:layout_width="181dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#E74C3C"
+        android:text="Essentials"
+
+        app:layout_constraintBottom_toTopOf="@+id/btnSupplies"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVChecklist2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="409dp"
+        android:layout_height="228dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="77dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnComms"
+        app:layout_constraintVertical_bias="0.0"></LinearLayout>
+
+    <Button
+        android:id="@+id/btnShelter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginBottom="39dp"
+        android:backgroundTint="#E74C3C"
+        android:text="Shelter and Warmth"
+        app:layout_constraintBottom_toTopOf="@+id/btnPersonal"
+        app:layout_constraintStart_toStartOf="@+id/btnComms"
+        app:layout_constraintTop_toBottomOf="@+id/btnComms" />
+
+    <Button
+        android:id="@+id/btnPersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:backgroundTint="#E74C3C"
+        android:text="Personal Documents "
+        app:layout_constraintBottom_toTopOf="@+id/btnTools"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShelter" />
+
+    <Button
+        android:id="@+id/btnTools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#E74C3C"
+        android:text="Tools and Supplies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnPersonal"
+        app:layout_constraintTop_toBottomOf="@+id/btnPersonal" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemIconSize="35dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

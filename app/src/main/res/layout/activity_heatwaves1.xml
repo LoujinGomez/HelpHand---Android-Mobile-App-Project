@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".heatwaves1">
+
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#F1713D"
+        android:fontFamily="sans-serif-condensed-light"
+        android:onClick="HWtoMain"
+        android:text="BACK"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="124dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#F1713D"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="NEXT PAGE!"
+        android:onClick="MovetoHW2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist54"
+        android:layout_width="381dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="A heat wave is an extended period of unusually hot weather, lasting more than two days, with or without high humidity. It can affect a large area, exposing many people to dangerous heat."
+        android:textColor="#CD5A2A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="100dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="493dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heatwaves2" />
+
+    <TextView
+        android:id="@+id/TVChecklist61"
+        android:layout_width="271dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="These heatwaves are less frequent and are likely to be more challenging for vulnerable people such as the elderly, particularly those with medical conditions."
+        android:textColor="#CD5A2A"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist64"
+        android:layout_width="146dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle3"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Extreme heatwaves"
+        android:textColor="#CD5A2A"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist60"
+        android:layout_width="146dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle3"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Severe heatwaves"
+        android:textColor="#CD5A2A"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist63"
+        android:layout_width="268dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Rare but impactful, extreme heatwaves pose a threat to those who neglect cooling precautions, including healthy individuals and those engaged in outdoor work or exercise."
+        android:textColor="#CD5A2A"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist55"
+        android:layout_width="202dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle3"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Types of Heatwaves:"
+        android:textColor="#CD5A2A"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist57"
+        android:layout_width="171dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle3"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Low-intensity heatwaves"
+        android:textColor="#CD5A2A"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="69dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="247dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="379dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heatwaves1" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="67dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heatwaves3" />
+
+    <TextView
+        android:id="@+id/TVChecklist59"
+        android:layout_width="251dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="These heatwave are more frequent during summer. Most people can cope during these heatwaves."
+        android:textColor="#CD5A2A"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist53"
+        android:layout_width="202dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle3"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="What are Heatwaves?"
+        android:textColor="#CD5A2A"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist52"
+        android:layout_width="244dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="HEATWAVES"
+        android:textColor="#CD5A2A"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="120dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="601dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/heatwaves_removebg_preview" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:itemIconSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

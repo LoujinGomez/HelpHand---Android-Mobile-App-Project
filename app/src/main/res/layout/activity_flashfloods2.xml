@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flashfloods2">
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#147273"
+        android:fontFamily="sans-serif-condensed-light"
+        android:onClick="movetoFF1"
+        android:text="BACK"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/TVChecklist51"
+        android:layout_width="183dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Flood debris may hide animals and broken bottles, avoid walking through it."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist40"
+        android:layout_width="185dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Be aware of stream, drainage channels, canyons and other areas known to flood suddenly."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist43"
+        android:layout_width="191dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Turn off utilities at the main switches and main valves. Avoid electrical equipment."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist38"
+        android:layout_width="172dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Listen to the radio or television for information."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist41"
+        android:layout_width="150dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="During an evacutaion:"
+        android:textColor="#1A6068"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist48"
+        android:layout_width="168dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Return home only when authorities indicate it is safe."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist36"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="If feasible, construct barriers to stop floodwater from entering the building and seal walls in basements with waterproofing compounds."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist31"
+        android:layout_width="323dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Consider installing check valves to prevent flood water from backing up into the drains of your home."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist28"
+        android:layout_width="349dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Build an emergency kit and make a family communications plan."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist49"
+        android:layout_width="119dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Stay on firm ground."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist47"
+        android:layout_width="169dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="If you must walk or drive:"
+        android:textColor="#1A6068"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist39"
+        android:layout_width="165dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Move immediately to higher ground should a flashflood occur. Do not wait for instructions."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist44"
+        android:layout_width="130dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="After a flood:"
+        android:textColor="#1A6068"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist42"
+        android:layout_width="191dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Secure your home, move outdoor furniture inside and essential items on a higher floor."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist50"
+        android:layout_width="163dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Exercise extreme caution when entering buildings."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist29"
+        android:layout_width="130dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Before a flood:"
+        android:textColor="#1A6068"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist37"
+        android:layout_width="130dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="During a flood:"
+        android:textColor="#1A6068"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist45"
+        android:layout_width="119dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Avoid moving water."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist46"
+        android:layout_width="166dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Stay away from damaged areas and roads."
+        android:textColor="#138C8E"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist27"
+        android:layout_width="195dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="PREPAREDNESS TIPS"
+        android:textColor="#1A6068"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="95dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="281dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="596dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/flashfloods" />
+
+    <TextView
+        android:id="@+id/TVChecklist20"
+        android:layout_width="244dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="FLASHFLOODS"
+        android:textColor="#138C8E"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.327"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:itemIconSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

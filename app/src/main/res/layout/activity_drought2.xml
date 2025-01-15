@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".drought2">
+
+    <TextView
+        android:id="@+id/TVChecklist181"
+        android:layout_width="190dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="592dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="If symptoms persist or worsen, seek immediate medical attention."
+        android:textColor="#8F690A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist179"
+        android:layout_width="179dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Advise them to eat light, bland, easily digested foods such as bread or rice."
+        android:textColor="#8F690A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist177"
+        android:layout_width="179dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="If food poisoning is suspected, advise them to lie down and rest."
+        android:textColor="#8F690A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist164"
+        android:layout_width="190dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="544dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Rest in a cool environment to reduce sweating and aid in hydration."
+        android:textColor="#8F690A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist161"
+        android:layout_width="190dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Hydrate gradually, Include electrolytes to restore essential minerals."
+        android:textColor="#8F690A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist175"
+        android:layout_width="179dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Recognize Symptoms: vomiting, stomach cramps, diarrhea, and fever"
+        android:textColor="#8F690A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist163"
+        android:layout_width="190dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Monitor urine color; light yellow or pale straw indicates proper hydration."
+        android:textColor="#8F690A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist176"
+        android:layout_width="179dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="- If vomiting, give small sips of water to prevent dehydration"
+        android:textColor="#8F690A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist165"
+        android:layout_width="183dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="592dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="If symptoms persist or worsen, seek immediate medical attention."
+        android:textColor="#8F690A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist156"
+        android:layout_width="190dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Recognize Symptoms: dry mouth, increased thirst, fatigue, and dark urine."
+        android:textColor="#8F690A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist166"
+        android:layout_width="152dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle6_2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="FOOD POISONING"
+        android:textColor="#8F690A"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist145"
+        android:layout_width="160dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle6_2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="DEHYDRATION"
+        android:textColor="#8F690A"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist178"
+        android:layout_width="179dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="- If diarrhea is present, replace lost fluids and salts. "
+        android:textColor="#8F690A"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist173"
+        android:layout_width="227dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+
+        android:text="The change in climate overall causes a lack in water availability, which in turn causes dehydration to become more common. Food poisoning is also introduced, as pathogens are affected and toxins are introduced into crops. Follow the guidelines below to treat people with symptoms!"
+        android:textColor="#8F690A"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist143"
+        android:layout_width="202dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle6"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="FIRST-AID INFO"
+        android:textColor="#8F690A"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist142"
+        android:layout_width="244dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="DROUGHTS"
+        android:textColor="#8F690A"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="127dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="605dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/drought_removebg_preview" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:itemIconSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="168dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="243dp"
+        android:layout_marginBottom="430dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/drought_first_aid_removebg_preview" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#7C5B08"
+        android:fontFamily="sans-serif-condensed-light"
+        android:onClick="movetoDrought1"
+        android:text="BACK"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".volcaniceruption1">
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#D55E39"
+        android:fontFamily="sans-serif-condensed-light"
+        android:onClick="VEtoMain"
+        android:text="BACK"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="#D55E39"
+        android:fontFamily="sans-serif-condensed-light"
+        android:onClick="MoveToVE2"
+        android:text="NEXT PAGE!"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="1dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="85dp"
+        android:background="#CFAB99"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/TVChecklist151"
+        android:layout_width="161dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Wanna learn how to properly evacuate during a Volcanic Eruption? Click on the button below!"
+        android:textColor="#A0522D"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist150"
+        android:layout_width="365dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle7"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="PREPAREDNESS TIPS"
+        android:textColor="#A0522D"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist152"
+        android:layout_width="154dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Click on the button below to watch a video on what to do before and after a Volcanic Eruption!"
+        android:textColor="#A0522D"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    link para sa yt video, before and after volcanic eruption: https://www.youtube.com/watch?v=UFz2fLrqZuk-->
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="#D55E39"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="LEARN MORE!"
+        android:onClick="VEtoWebsite1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist149"
+        android:layout_width="227dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Deep within the Earth, intense heat causes rocks to melt into magma. Being lighter than the surrounding solid rock, magma rises and accumulates in chambers. Over time, it can erupt through vents and fissures to the Earth's surface."
+        android:textColor="#A0522D"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist148"
+        android:layout_width="214dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle7"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Why do Volcanoes erupt?"
+        android:textColor="#A0522D"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist147"
+        android:layout_width="381dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="The phenomena when gas and/or lava are released from a volcano—sometimes explosively."
+        android:textColor="#A0522D"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChecklist146"
+        android:layout_width="245dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rounded_rectangle7"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="What is a Volcanic Eruption?"
+        android:textColor="#A0522D"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="107dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="590dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/volcaniceruption3" />
+
+    <TextView
+        android:id="@+id/TVChecklist144"
+        android:layout_width="308dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="VOLCANIC ERUPTION"
+        android:textColor="#A0522D"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:itemIconSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="144dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="342dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/volcanic_magma" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
